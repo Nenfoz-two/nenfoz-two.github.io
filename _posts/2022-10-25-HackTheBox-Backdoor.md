@@ -6,9 +6,12 @@ categories:
 tags:
   - Wordpress
   - Directory Traversal
-  - LFI
   - SUID
 ---
+
+Maquina de dificultad fácil que conlleva directory traversal por medio un plugin en wordpress, lo que permite leer archivos del sistema y nos permitira ver el servicio que corre en el puerto 1337, a través de una vulnerabilidad que tiene, obtener una shell, para luego por medio del comando screen que tiene permisos SUID obtener una session como root.
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/Backdoor.png)
 
 ## Scanning
 
